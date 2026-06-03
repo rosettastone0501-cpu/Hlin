@@ -4,7 +4,7 @@
 
 - Creator: Jonathan Monclare
 
-- Version: 1.0.0
+- Version: Latest(stabled) 1.0.0 / pre-release() 1.0.1
 
 - License: [PolyForm Noncommercial License](./license)
 
@@ -42,6 +42,27 @@ Check [guide.md](./guide.md) for more details.
 - Manipulate command macro to perform actions with `safeRun: true` without authorization. 
 
 `Freedom in Confinement` : Agent can use command macro with `safeRun: true` to bypass  execution-guard.
+
+`Toolbox` : Macro is just like MCP but more simpler. with high customizability. call your complex command set with very few inputs.
+
+`Template` : we featured slot system. which means you can make different action by same template.
+
+```
+# example: 
+
+test: {
+  cmd: "rm -r -force <T: string>" # this is your template
+  ...
+}
+
+# you can do
+
+test ./here # converted to "rm -f -force ./here"
+
+or
+
+test ./path/to/file # "rm -r -force ./path/to/file"
+```
 
 ## Instructions
 
