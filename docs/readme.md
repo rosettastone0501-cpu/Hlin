@@ -34,7 +34,7 @@ Check [guide.md](./guide.md) for more details.
 
 ## Values of Hlin
 
-`High Security` : Block every unacknowledged execution to prevent before a tragedy occurs.
+`execution-layer prevention` : Block every unacknowledged execution to prevent before a tragedy occurs.
 
 `Encrypted Data` : All data ( such as config, command macro ) are encrypted to prevent jailbreaking. such as 
 
