@@ -45,6 +45,8 @@ Check [guide.md](./guide.md) for more details.
 
 `Toolbox` : Macro is just like MCP but more simpler. with high customizability. call your complex command set with very few inputs.
 
+`audit-log` : every single execution will be recorded and saved into the audit-log file for tracking actions and each status
+
 `Template` : we featured slot system. which means you can make different action by same template.
 
 ```
