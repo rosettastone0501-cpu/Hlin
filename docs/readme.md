@@ -2,7 +2,7 @@
 
 - Name: Hlin
 
-- Creator: Jonathan Monclare
+- Creator: rosettastone0501-cpu
 
 - Version: Latest(stabled) 1.0.0 / pre-release() 1.0.1
 
